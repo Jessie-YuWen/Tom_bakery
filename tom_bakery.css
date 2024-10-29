@@ -1,0 +1,177 @@
+header,
+var,
+section,
+footer {
+    border: 3px solid rgb(239, 171, 93);
+}
+/* 以下為headerCSS */
+header {
+    background-color: #150e3c;
+    height: 80px;
+    width: 100%;
+}
+
+header h1 {
+    color: antiquewhite;
+    position: absolute;
+    left: 90px;
+    top: 0;
+    line-height: 80px;
+}
+
+header img {
+    height: 65px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+
+}
+
+header h4 {
+    line-height: 80px;
+    color: antiquewhite;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #286f8b;
+        color: white;
+    }
+}
+
+header ul {
+    position: absolute;
+    right: 3vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+/* main CSS */
+main{
+    margin-top: 80px;
+}
+/* 以下為側邊攔CSS */
+aside {
+    width: 50px;
+    height: 200px;
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+/* TOP鍵 */
+#up {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 6px;
+    border: 2px solid #1f1170;
+    /* background-color: white; */
+}
+#upfill {
+    font-size: 25px;
+    position: relative;
+    bottom: 6px;
+    left: 1px;
+    color: #1f1170;
+}
+/* MSG鍵 */
+#msglink2img {
+    font-size: 30px;
+    color: #1f1170;
+    position: relative;
+    left: 6px;
+}
+.link {
+    display: none;
+}
+
+#Msg:hover>.link {
+    display: block;
+}
+
+
+/* 側邊漢堡按鈕 */
+ul {
+    list-style: none;
+}
+
+input {
+    display: none;
+}
+
+label {
+    font-size: 30px;
+    padding: 0 0 0 5px;
+}
+
+.menu {
+    /* clear: both; */
+    padding: 0 40px 0 5px;
+
+    li {
+        a {
+            font-size: 30px;
+            color: #1f1170;
+
+            &:hover {
+                color: #286f8b;
+            }
+        }
+    }
+}
+
+.menu {
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked~.menu {
+    max-height: 150px;
+}
+
+.menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+/* 以下為footer CSS */
+footer {
+    padding: 20px 100px 0 100px;
+    background-color: #150e3c;
+}
+
+footer a,
+#footertext {
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    color: antiquewhite;
+}
+footer h5{
+    color: antiquewhite;
+    /* background-color: aqua; */
+    line-height: 30px;
+}
+
+footer i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    /* background-color: aqua; */
+} 
