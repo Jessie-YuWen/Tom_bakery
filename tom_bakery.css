@@ -1,12 +1,14 @@
-header,
+/* header,
 var,
 section,
 footer {
     border: 3px solid rgb(239, 171, 93);
+} */
+main {
+    margin: 40px;
+    padding: 0 50px;
 }
-main{
-    padding: 0 20px;
-}
+
 /* 以下為headerCSS */
 header {
     background-color: #150e3c;
@@ -53,10 +55,12 @@ header li {
     display: inline;
     margin-right: 4vw;
 }
+
 /* main CSS */
-main{
+main {
     margin-top: 80px;
 }
+
 /* 以下為側邊攔CSS */
 aside {
     width: 50px;
@@ -79,6 +83,7 @@ aside {
     border: 2px solid #1f1170;
     /* background-color: white; */
 }
+
 #upfill {
     font-size: 25px;
     position: relative;
@@ -86,6 +91,7 @@ aside {
     left: 1px;
     color: #1f1170;
 }
+
 /* MSG鍵 */
 #msglink2img {
     font-size: 30px;
@@ -93,6 +99,7 @@ aside {
     position: relative;
     left: 6px;
 }
+
 .link {
     display: none;
 }
@@ -161,7 +168,8 @@ footer a,
     top: 40px;
     color: antiquewhite;
 }
-footer h5{
+
+footer h5 {
     color: antiquewhite;
     /* background-color: aqua; */
     line-height: 30px;
@@ -172,25 +180,55 @@ footer i {
     margin-right: 10px;
 }
 
-footer p{
+footer p {
     display: flex;
     justify-content: center;
     color: antiquewhite;
     /* background-color: aqua; */
-} 
+}
+
 /* ---------以下介紹CSS----------- */
-#cbox{
-    border: 1px solid salmon;
-    padding: 50px 5px;
-}
-#cbox div{
-   display: flexbox;
-   margin: auto;
-}
-#cbox h5{
+.nav-link {
+    font-size: 20px;
     font-weight: bold;
 }
-.cimg{
-    height: 300px;
+
+#cbox {
+    border: 1px solid salmon;
+    padding: 50px 80px 50px 0px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+#cbox div {
+    display: flexbox;
+    margin: auto;
+    padding-left: 20px;
+    border: 1px solid saddlebrown;
+}
+
+#cbox h5 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.cimg {
+    height: 450px;
     object-fit: contain;
+    display: flexbox;
+    margin: auto;
+    border: 1px solid saddlebrown;
+}
+
+section ul {
+    display: flex;
+    justify-content: end;
+}
+
+#zxo {
+    font-size: 35px;
+    border: 1px solid saddlebrown;
+    line-height: 45px;
+    font-weight: bold;
+
 }
