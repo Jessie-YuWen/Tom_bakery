@@ -32,15 +32,17 @@ header img {
 
 }
 
-header h4 {
+header a {
     line-height: 80px;
+    /* height: 60px; */
     color: antiquewhite;
     display: inline-block;
     text-decoration: none;
 
     &:hover {
-        background-color: #286f8b;
-        color: white;
+        /* background-color: #286f8b; */
+        border-bottom: 2px solid antiquewhite;
+        color: antiquewhite;
     }
 }
 
@@ -230,5 +232,20 @@ section ul {
     border: 1px solid saddlebrown;
     line-height: 45px;
     font-weight: bold;
+}
 
+/* 以下為產品介紹CSS */
+.card {
+    height: 100%;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid saddlebrown;
+    /* background-color: #F5F5DC; */
+    background-color: #FFFDD0;
+    /* background-color: #D2B48C; */
+    background-color: #FFDAB9;
+    /* background-color: #D3D3D3; */
+}
+.card-title {
+    margin: 25px 0 10px 0;
 }
