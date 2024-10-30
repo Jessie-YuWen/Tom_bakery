@@ -4,62 +4,62 @@ section,
 footer {
     border: 3px solid rgb(239, 171, 93);
 } */
-main {
-    margin: 40px;
-    padding: 0 50px;
+body {
+    background-color: #68614423;
 }
 
 /* 以下為headerCSS */
 header {
-    background-color: #150e3c;
+    background-color: rgb(4, 25, 46);
     height: 80px;
     width: 100%;
-}
 
-header h1 {
-    color: antiquewhite;
-    position: absolute;
-    left: 90px;
-    top: 0;
-    line-height: 80px;
-}
-
-header img {
-    height: 65px;
-    position: absolute;
-    top: 8px;
-    left: 20px;
-
-}
-
-header a {
-    line-height: 80px;
-    /* height: 60px; */
-    color: antiquewhite;
-    display: inline-block;
-    text-decoration: none;
-
-    &:hover {
-        /* background-color: #286f8b; */
-        border-bottom: 2px solid antiquewhite;
+    h1 {
         color: antiquewhite;
+        position: absolute;
+        left: 90px;
+        top: 0;
+        line-height: 80px;
     }
-}
 
-header ul {
-    position: absolute;
-    right: 3vw;
-    top: 0;
-    line-height: 80px;
-}
+    img {
+        height: 65px;
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
 
-header li {
-    display: inline;
-    margin-right: 4vw;
+    a {
+        line-height: 80px;
+        /* height: 60px; */
+        color: antiquewhite;
+        display: inline-block;
+        text-decoration: none;
+
+        &:hover {
+            /* background-color: #286f8b; */
+            border-bottom: 2px solid antiquewhite;
+            color: antiquewhite;
+        }
+    }
+
+    ul {
+        position: absolute;
+        right: 3vw;
+        top: 0;
+        line-height: 80px;
+    }
+
+    li {
+        display: inline;
+        margin-right: 4vw;
+    }
 }
 
 /* main CSS */
 main {
+    margin: 10px 40px;
+    padding: 0 50px;
     margin-top: 80px;
 }
 
@@ -82,7 +82,7 @@ aside {
     height: 30px;
     position: relative;
     left: 6px;
-    border: 2px solid #1f1170;
+    border: 2px solid #0489aa;
     /* background-color: white; */
 }
 
@@ -91,13 +91,13 @@ aside {
     position: relative;
     bottom: 6px;
     left: 1px;
-    color: #1f1170;
+    color: #0489aa;
 }
 
 /* MSG鍵 */
 #msglink2img {
     font-size: 30px;
-    color: #1f1170;
+    color: #0489aa;
     position: relative;
     left: 6px;
 }
@@ -132,7 +132,7 @@ label {
     li {
         a {
             font-size: 30px;
-            color: #1f1170;
+            color: #0489aa;
 
             &:hover {
                 color: #286f8b;
@@ -160,36 +160,37 @@ input:checked~.menu {
 /* 以下為footer CSS */
 footer {
     padding: 20px 100px 0 100px;
-    background-color: #150e3c;
+    margin-bottom: 0;
+    background-color: rgb(4, 25, 46);
+
+    a,
+    #footertext {
+        text-decoration: none;
+        position: relative;
+        top: 40px;
+        color: antiquewhite;
+    }
+
+    h5 {
+        color: antiquewhite;
+        /* background-color: aqua; */
+        line-height: 30px;
+    }
+
+    i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        color: antiquewhite;
+        /* background-color: aqua; */
+    }
 }
 
-footer a,
-#footertext {
-    text-decoration: none;
-    position: relative;
-    top: 40px;
-    color: antiquewhite;
-}
-
-footer h5 {
-    color: antiquewhite;
-    /* background-color: aqua; */
-    line-height: 30px;
-}
-
-footer i {
-    font-size: 30px;
-    margin-right: 10px;
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
-    color: antiquewhite;
-    /* background-color: aqua; */
-}
-
-/* ---------以下介紹CSS----------- */
+/* ---------以下圍湯暮小故事CSS----------- */
 .nav-link {
     font-size: 20px;
     font-weight: bold;
@@ -200,18 +201,18 @@ footer p {
     padding: 50px 80px 50px 0px;
     line-height: 50px;
     font-size: 20px;
-}
 
-#cbox div {
-    display: flexbox;
-    margin: auto;
-    padding-left: 20px;
-    border: 1px solid saddlebrown;
-}
+    div {
+        display: flexbox;
+        margin: auto;
+        padding-left: 20px;
+        border: 1px solid saddlebrown;
+    }
 
-#cbox h5 {
-    font-weight: bold;
-    font-size: 35px;
+    h5 {
+        font-weight: bold;
+        font-size: 35px;
+    }
 }
 
 .cimg {
@@ -222,9 +223,16 @@ footer p {
     border: 1px solid saddlebrown;
 }
 
-section ul {
-    display: flex;
-    justify-content: end;
+section {
+
+    ul {
+        display: flex;
+        justify-content: end;
+        /* position: sticky;
+        top: 80px; */
+        /* right: 5%; */
+    }
+
 }
 
 #zxo {
@@ -246,6 +254,136 @@ section ul {
     background-color: #FFDAB9;
     /* background-color: #D3D3D3; */
 }
+
 .card-title {
     margin: 25px 0 10px 0;
+}
+
+/* -------以下為購買資訊CSS-------- */
+#buybox {
+    h2 {
+        font-size: 35px;
+        border: 1px solid saddlebrown;
+        line-height: 45px;
+        font-weight: bold;
+    }
+
+    div {
+        /* padding-top: 10px; */
+        display: flexbox;
+        margin: auto;
+        padding-bottom: 10px;
+        /* border: 1px solid saddlebrown; */
+        background-color: #F7E3AF;
+    }
+
+    img {
+        width: 50vh;
+        object-fit: contain;
+        background-color: #F7E3AF;
+        /* display: flexbox;
+        margin: auto;  文字對齊相關*/
+        /* border: 1px solid saddlebrown; */
+    }
+
+    iframe {
+        padding-top: 25px;
+    }
+
+    >h5 {
+        font-size: 25px;
+        line-height: 50px;
+        margin-top: 10px;
+        /* background-color: #0489aa; */
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    /* pre {
+        border: 1px solid saddlebrown;
+    } */
+
+    #h4one {
+        height: 280px;
+        line-height: 80px;
+        padding-top: 60px;
+        background-color: #0489aa;
+    }
+
+    h4 {
+        background-color: #e08c9a5b;
+        height: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding: 35px 0;
+        margin: 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 45px;
+        margin: 0;
+        padding-left: 20px;
+    }
+}
+
+#buybox2 {
+    div {
+        background-color: #F7E3AF;
+        display: flexbox;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+        width: 80%;
+        padding: 0;
+        /* padding-top: 10px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: #F7E3AF;
+    }
+
+    #h4one {
+        height: 280px;
+        line-height: 80px;
+        padding-top: 60px;
+        background-color: #0489aa;
+    }
+
+    h4 {
+        background-color: #e08c9a5b;
+        height: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding: 35px 0;
+        margin: 0;
+    }
+
+    span {
+        border: 1px solid saddlebrown;
+        display: inline-block;
+        padding: 20px 20px;
+        margin: 0 20px 0 20px;
+        line-height: 30px;
+        /* background-color: #FADADD; */
+    }
+    
+    span2 {
+        border: 1px solid saddlebrown;
+        display: inline-block;
+        padding: 20px 20px;
+        margin: 0 20px 0 20px;
+        line-height: 30px;
+        /* background-color: #FADADD; */
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 45px;
+        margin: 0;
+        padding-left: 20px;
+    }
 }
