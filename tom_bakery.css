@@ -4,6 +4,9 @@ section,
 footer {
     border: 3px solid rgb(239, 171, 93);
 }
+main{
+    padding: 0 20px;
+}
 /* 以下為headerCSS */
 header {
     background-color: #150e3c;
@@ -175,3 +178,19 @@ footer p{
     color: antiquewhite;
     /* background-color: aqua; */
 } 
+/* ---------以下介紹CSS----------- */
+#cbox{
+    border: 1px solid salmon;
+    padding: 50px 5px;
+}
+#cbox div{
+   display: flexbox;
+   margin: auto;
+}
+#cbox h5{
+    font-weight: bold;
+}
+.cimg{
+    height: 300px;
+    object-fit: contain;
+}
