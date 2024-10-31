@@ -15,19 +15,93 @@
 <body>
     <header class="fixed-top">
         <img class="rounded-circle" src="/img/logo.jpg" alt="">
-        <a href="tom_bakery_0首頁.html"><h1>湯暮麵包手作烘焙</h1></a>
-       
+        <a href="tom_bakery_0首頁.html">
+            <h1>湯暮麵包手作烘焙</h1>
+        </a>
+
         <ul>
-            <li><a href="tom_bakery_1湯暮介紹.html"><h4>湯暮小故事</h4></a></li>
-            <li><a href="tom_bakery_2產品.html"><h4>湯暮有什麼?</h4></a></li>
-            <li><a href="tom_bakery_3據點.html"><h4>湯暮哪裡買?</h4></a></li>
-            <li><a href="tom_bakery_4QA.html"><h4>常見問題</h4></a></li>
+            <li><a href="tom_bakery_1湯暮介紹.html">
+                    <h4>湯暮小故事</h4>
+                </a></li>
+            <li><a href="tom_bakery_2產品.html">
+                    <h4>湯暮有什麼?</h4>
+                </a></li>
+            <li><a href="tom_bakery_3據點.html">
+                    <h4>湯暮哪裡買?</h4>
+                </a></li>
+            <li><a href="tom_bakery_4QA.html">
+                    <h4>常見問題</h4>
+                </a></li>
         </ul>
     </header>
     <main>
         <section>
             <h1>常見問題</h1>
-          </section>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                            麵包的即食性
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <p>湯暮堅持每日現烤，且不添使用人工添加物。</p>
+                            <p>建議暮友們盡快食用，才能感受到麵包們最美味的狀態喔!</p>
+                            <p>購買當日就算一天，三天為最佳保存期限喔。</p>
+                            <p>保存方式及回烤方式請參考下方說明。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            麵包的保存方式
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <h6>冷藏保存</h6>
+                            <p>需要冷藏的麵包：<br>
+                                內餡或含肉製品的麵包，如紅豆、芋頭、芝麻、卡士達等，及含肉製品的麵包。</p>
+                            <p>保存方式：<br>
+                                冷藏保存以保持新鮮，因為內餡手工製作，不含添加物，保存期限較短。</p>
+                            <h6>冷凍保存</h6>
+                            <p>適合冷凍的麵包：<br>
+                                吐司、歐式麵包、法國麵包等。</p>
+                            <p>保存方式：<br>
+                                冷凍前先切片或切塊，食用前一晚取出所需份量轉至冷藏，早晨回烤。<br>
+                                冷凍保存可減緩老化速度，維持麵包的水分。</p>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse show" href="#collapseThree">
+                            麵包的回烤方式
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <h6>烤箱回烤</h6>
+                            <p>預熱至180200度，麵包表面噴水，回烤25分鐘。</p>
+                            <h6>微波爐回烤</h6>
+                            <p>微波爐中火，麵包表面噴水，回烤1~1.5分鐘。</p>
+                            <h6>電鍋蒸烤</h6>
+                            <p>鍋內噴少許水，直接蒸烤。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            4. **回烤方式**：
+            - **烤箱回烤**：預熱至180200度，麵包表面噴水，回烤25分鐘。
+            - **微波爐回烤**：微波爐中火，麵包表面噴水，回烤1~1.5分鐘。
+            - **電鍋蒸烤**：鍋內噴少許水，直接蒸烤。
+        </section>
     </main>
 
 
@@ -50,7 +124,7 @@
     </aside>
     <footer>
         <div class="row">
-            <div class="col" >
+            <div class="col">
                 <h5 id="footertext">關於湯暮</h5>
                 <a href="tom_bakery_1湯暮介紹.html">湯暮小故事</a><br>
                 <a href="tom_bakery_4QA.html">常見問題</a><br>
@@ -61,15 +135,20 @@
                 <a href="https://reurl.cc/myma5M"><i class="bi bi-messenger"></i></a>
                 <a href="https://reurl.cc/YqALjn"><i class="bi bi-instagram"></i></a>
             </div>
-            <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.504628763317!2d120.67850101045784!3d23.97795117842619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469306ee53f95fb%3A0x6e17a0321cfb9459!2z5Li55aau6I6O6bq15YyF6Iqx5ZyS!5e0!3m2!1szh-TW!2stw!4v1730205692596!5m2!1szh-TW!2stw" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <div class="col"><pre><h5>
+            <div class="col"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.504628763317!2d120.67850101045784!3d23.97795117842619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469306ee53f95fb%3A0x6e17a0321cfb9459!2z5Li55aau6I6O6bq15YyF6Iqx5ZyS!5e0!3m2!1szh-TW!2stw!4v1730205692596!5m2!1szh-TW!2stw"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="col">
+                <pre><h5>
 | 草屯總店 | 湯暮麵包手作烘焙 丹妮莎麵包花園
 | 訂購專線 | 049 - 2311565
 | 門市地址 | 542南投縣草屯鎮碧山南路27號
 | 營業時間 | 星期一 ~ 星期日 10:00 - 21:30
-                </h5></pre></div>
+                </h5></pre>
+            </div>
         </div>
- <p>Copyright © 2024 湯暮麵包手作烘焙. All rights reserved.</p>
+        <p>Copyright © 2024 湯暮麵包手作烘焙. All rights reserved.</p>
     </footer>
     <script src="/tom_bakery.js"></script>
 </body>

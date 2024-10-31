@@ -20,39 +20,44 @@ header {
         left: 90px;
         top: 0;
         line-height: 80px;
+        font-size: 3vw;
+        /* font-weight: 30%; */
     }
-
+    
     img {
         height: 65px;
         position: absolute;
         top: 8px;
         left: 20px;
     }
-
+    
     a {
+        border: 1px solid salmon;
+        font-size: 3vw;
+        /* font-size: 4vh; */
         line-height: 80px;
         /* height: 60px; */
         color: antiquewhite;
         display: inline-block;
         text-decoration: none;
-
+        
         &:hover {
             /* background-color: #286f8b; */
             border-bottom: 2px solid antiquewhite;
             color: antiquewhite;
         }
     }
-
+    
     ul {
         position: absolute;
-        right: 3vw;
+        right: 0.5vw;
         top: 0;
-        line-height: 80px;
+        line-height: 90px;
     }
-
+    
     li {
         display: inline;
-        margin-right: 4vw;
+        margin-right: 2vw;
     }
 }
 
@@ -243,30 +248,33 @@ section {
 }
 
 /* 以下為產品介紹CSS */
-.card {
-    height: 100%;
-    width: 30%;
-    margin: 10px;
-    border: 1px solid saddlebrown;
-    /* background-color: #F5F5DC; */
-    background-color: #FFFDD0;
-    /* background-color: #D2B48C; */
-    background-color: #FFDAB9;
-    /* background-color: #D3D3D3; */
+#product{
+    .card {
+        height: 100%;
+        width: 30%;
+        margin: 10px;
+        border: 1px solid saddlebrown;
+        /* background-color: #F5F5DC; */
+        background-color: #FFFDD0;
+        /* background-color: #D2B48C; */
+        background-color: #FFDAB9;
+        /* background-color: #D3D3D3; */
+    }
+    .card-title {
+        margin: 25px 0 10px 0;
+    }
 }
 
-.card-title {
-    margin: 25px 0 10px 0;
-}
 
 /* -------以下為購買資訊CSS-------- */
+#cartitle {
+    font-size: 35px;
+    border: 1px solid saddlebrown;
+    line-height: 45px;
+    font-weight: bold;
+}
 #buybox {
-    h2 {
-        font-size: 35px;
-        border: 1px solid saddlebrown;
-        line-height: 45px;
-        font-weight: bold;
-    }
+    background-color: #F7E3AF;
 
     div {
         /* padding-top: 10px; */
@@ -274,7 +282,6 @@ section {
         margin: auto;
         padding-bottom: 10px;
         /* border: 1px solid saddlebrown; */
-        background-color: #F7E3AF;
     }
 
     img {
@@ -294,6 +301,8 @@ section {
         font-size: 25px;
         line-height: 50px;
         margin-top: 10px;
+        padding-left: 20px;
+        font-weight: bold;
         /* background-color: #0489aa; */
     }
 
@@ -385,5 +394,23 @@ section {
         line-height: 45px;
         margin: 0;
         padding-left: 20px;
+    }
+}
+
+/* 以下為QA CSS */
+#accordion{
+    .card{
+        border: 1px solid seagreen;
+    }
+    a{
+        
+        border: 1px solid seagreen;
+    }
+    h6{
+        
+        border: 1px solid seagreen;
+    }
+    p{
+        border: 1px solid seagreen;
     }
 }
