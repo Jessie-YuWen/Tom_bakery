@@ -5,7 +5,7 @@ footer {
     border: 3px solid rgb(239, 171, 93);
 } */
 body {
-    background-color: #68614423;
+    background-color: #00000028;
 }
 
 /* 以下為headerCSS */
@@ -32,7 +32,6 @@ header {
     }
 
     a {
-        border: 1px solid salmon;
         font-size: 3vw;
         /* font-size: 4vh; */
         line-height: 80px;
@@ -88,7 +87,6 @@ aside {
     position: relative;
     left: 15px;
     border: 2px solid #0489aa;
-    /* background-color: white; */
 }
 
 #upfill {
@@ -131,7 +129,6 @@ label {
 }
 
 .menu {
-    /* clear: both; */
     padding: 0 40px 0 5px;
 
     li {
@@ -178,7 +175,6 @@ footer {
 
     h5 {
         color: antiquewhite;
-        /* background-color: aqua; */
         line-height: 30px;
     }
 
@@ -190,19 +186,192 @@ footer {
     p {
         display: flex;
         justify-content: center;
-        color: antiquewhite;
+        color: #B7B7B7;
+        font-size: 14px;
+        line-height: 35px;
         /* background-color: aqua; */
     }
 }
 
-/* ---------以下圍湯暮小故事CSS----------- */
-.nav-link {
-    font-size: 20px;
-    font-weight: bold;
+/* ---------以下為首頁CSS-------- */
+section {
+    #pageimg {
+        margin-top: 80px;
+        height: 630px;
+        width: 100%;
+        background-image: url(/img/首頁底圖.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 60%;
+
+        h3 {
+            /* border: 1px solid seagreen; */
+            color: antiquewhite;
+            background-color: rgba(38, 18, 9, 0.656);
+            text-align-last: center;
+            text-align: center;
+            line-height: 80px;
+            height: 630px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+
+    #pageimg2 {
+        background-color: #f1cb98;
+        margin: 0;
+
+        #xjp61i {
+            height: 609px;
+            margin: 0;
+            padding: 0;
+
+            img {
+                height: 609px;
+                object-fit: cover;
+            }
+        }
+
+        #halloween {
+            margin: 0;
+            padding: 0;
+
+            h3 {
+                margin-bottom: 13px;
+                height: 148px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 36px;
+            }
+
+            p {
+                height: 216px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                line-height: 80px;
+                font-size: 30px;
+            }
+
+            p2 {
+                height: 216px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                line-height: 80px;
+                font-size: 30px;
+            }
+        }
+    }
+
+    #new{
+        background-color: #ede9db;
+        margin: 0;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 36px;
+                /* border: 1px solid rgb(224, 33, 11); */
+    }
+
+    #pageimg3 {
+        display: flex;
+        background-color: #ede9db;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        margin: 0;
+
+        div {
+            width: 300px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6em;
+        }
+    }
+    #pageimg4 {
+        display: flex;
+        background-color: #ede9db;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        margin: 0;
+
+        div {
+            width: 300px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6em;
+        }
+    }
 }
 
+/* ---------以下圍湯暮小故事CSS----------- */
+.nav{
+    margin-top: 20px;
+    .nav-link {
+        font-size: 20px;
+        font-weight: bold;
+        color: #0489aa;
+        nav-left: ;
+        &:hover{
+            background-color: #FFFDD0;
+        }
+        &:focus{
+            /* border: 1px solid salmon; */
+            background-color: #0489aa;
+            color: #FFFDD0;
+        }
+    }
+}
+
+
 #cbox {
-    border: 1px solid salmon;
     padding: 50px 80px 50px 0px;
     line-height: 50px;
     font-size: 20px;
@@ -211,7 +380,6 @@ footer {
         display: flexbox;
         margin: auto;
         padding-left: 20px;
-        border: 1px solid saddlebrown;
     }
 
     h5 {
@@ -225,7 +393,6 @@ footer {
     object-fit: contain;
     display: flexbox;
     margin: auto;
-    border: 1px solid saddlebrown;
 }
 
 section {
@@ -242,7 +409,6 @@ section {
 
 #zxo {
     font-size: 35px;
-    border: 1px solid saddlebrown;
     line-height: 45px;
     font-weight: bold;
 }
@@ -252,7 +418,7 @@ section {
     .card {
         height: 100%;
         width: 30%;
-        margin: 10px;
+        margin: 50px 10px;
         border: 1px solid saddlebrown;
         /* background-color: #F5F5DC; */
         background-color: #FFFDD0;
@@ -263,6 +429,8 @@ section {
 
     .card-title {
         margin: 25px 0 10px 0;
+        font-weight: bold;
+        font-size: 24px;
     }
 }
 
@@ -270,7 +438,6 @@ section {
 /* -------以下為購買資訊CSS-------- */
 #cartitle {
     font-size: 35px;
-    border: 1px solid saddlebrown;
     line-height: 45px;
     font-weight: bold;
 }
@@ -429,7 +596,7 @@ section {
 
     h6 {
         font-size: 28px;
-        border: 1px solid seagreen;
+        /* border: 1px solid seagreen; */
         display: inline;
         background-color: #0489aa;
         color: #FFDAB9;
@@ -444,7 +611,7 @@ section {
     }
 
     #slogan {
-        border: 1px solid seagreen;
+        /* border: 1px solid seagreen; */
         height: 350px;
         background-color: rgba(221, 16, 16, 0.589);
         background-image: url(/img/丹麥吐司.png);
@@ -456,7 +623,7 @@ section {
     }
 
     h3 {
-        border: 1px solid seagreen;
+        /* border: 1px solid seagreen; */
         color: antiquewhite;
         background-color: rgba(38, 18, 9, 0.656);
         text-align-last: center;
