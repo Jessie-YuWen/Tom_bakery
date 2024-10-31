@@ -23,14 +23,14 @@ header {
         font-size: 3vw;
         /* font-weight: 30%; */
     }
-    
+
     img {
         height: 65px;
         position: absolute;
         top: 8px;
         left: 20px;
     }
-    
+
     a {
         border: 1px solid salmon;
         font-size: 3vw;
@@ -40,21 +40,21 @@ header {
         color: antiquewhite;
         display: inline-block;
         text-decoration: none;
-        
+
         &:hover {
             /* background-color: #286f8b; */
             border-bottom: 2px solid antiquewhite;
             color: antiquewhite;
         }
     }
-    
+
     ul {
         position: absolute;
         right: 0.5vw;
         top: 0;
         line-height: 90px;
     }
-    
+
     li {
         display: inline;
         margin-right: 2vw;
@@ -86,7 +86,7 @@ aside {
     width: 30px;
     height: 30px;
     position: relative;
-    left: 6px;
+    left: 15px;
     border: 2px solid #0489aa;
     /* background-color: white; */
 }
@@ -104,7 +104,7 @@ aside {
     font-size: 30px;
     color: #0489aa;
     position: relative;
-    left: 6px;
+    left: 15px;
 }
 
 .link {
@@ -248,7 +248,7 @@ section {
 }
 
 /* 以下為產品介紹CSS */
-#product{
+#product {
     .card {
         height: 100%;
         width: 30%;
@@ -260,6 +260,7 @@ section {
         background-color: #FFDAB9;
         /* background-color: #D3D3D3; */
     }
+
     .card-title {
         margin: 25px 0 10px 0;
     }
@@ -273,6 +274,7 @@ section {
     line-height: 45px;
     font-weight: bold;
 }
+
 #buybox {
     background-color: #F7E3AF;
 
@@ -314,7 +316,7 @@ section {
 
     /* pre {
         border: 1px solid saddlebrown;
-    } */
+        } */
 
     #h4one {
         height: 280px;
@@ -379,7 +381,7 @@ section {
         line-height: 30px;
         /* background-color: #FADADD; */
     }
-    
+
     span2 {
         border: 1px solid saddlebrown;
         display: inline-block;
@@ -398,19 +400,73 @@ section {
 }
 
 /* 以下為QA CSS */
-#accordion{
-    .card{
-        border: 1px solid seagreen;
+#accordion {
+    .card {
+        /* border: 1px solid seagreen; */
+        /* border: 1px solid saddlebrown; */
+        background-color: #96c1ccb0;
+        /* background-color: #FFDAB9; */
     }
-    a{
-        
-        border: 1px solid seagreen;
+
+    .card-body {
+        /* border: 1px solid seagreen; */
+        background-color: #172c311e;
+
     }
-    h6{
-        
-        border: 1px solid seagreen;
+
+    a {
+        font-size: 30px;
+        /* border: 1px solid seagreen; */
+        display: block;
+
+        &:hover {
+            /* background-color: #286f8b; */
+            border: 2px solid rgb(13, 19, 46);
+            color: rgb(13, 19, 46);
+            font-weight: bolder;
+        }
     }
-    p{
+
+    h6 {
+        font-size: 28px;
         border: 1px solid seagreen;
+        display: inline;
+        background-color: #0489aa;
+        color: #FFDAB9;
+        font-weight: bold;
+    }
+
+    p {
+        /* border: 1px solid seagreen; */
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #slogan {
+        border: 1px solid seagreen;
+        height: 350px;
+        background-color: rgba(221, 16, 16, 0.589);
+        background-image: url(/img/丹麥吐司.png);
+        background-size: cover;
+        /* background-image: url(/img/底圖.jpg); */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 50%;
+    }
+
+    h3 {
+        border: 1px solid seagreen;
+        color: antiquewhite;
+        background-color: rgba(38, 18, 9, 0.656);
+        text-align-last: center;
+        text-align: center;
+        line-height: 80px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 40px;
     }
 }
