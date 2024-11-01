@@ -5,12 +5,12 @@ footer {
     border: 3px solid rgb(239, 171, 93);
 } */
 body {
-    background-color: #00000028;
+    background-color: #ffffff;
 }
 
 /* 以下為headerCSS */
 header {
-    background-color: rgb(4, 25, 46);
+    background-color: #153548;
     height: 80px;
     width: 100%;
 
@@ -86,7 +86,7 @@ aside {
     height: 30px;
     position: relative;
     left: 15px;
-    border: 2px solid #0489aa;
+    border: 2px solid #4E9A8D;
 }
 
 #upfill {
@@ -94,13 +94,13 @@ aside {
     position: relative;
     bottom: 6px;
     left: 1px;
-    color: #0489aa;
+    color: #4E9A8D;
 }
 
 /* MSG鍵 */
 #msglink2img {
     font-size: 30px;
-    color: #0489aa;
+    color: #4E9A8D;
     position: relative;
     left: 15px;
 }
@@ -134,7 +134,7 @@ label {
     li {
         a {
             font-size: 30px;
-            color: #0489aa;
+            color: #4E9A8D;
 
             &:hover {
                 color: #286f8b;
@@ -163,7 +163,7 @@ input:checked~.menu {
 footer {
     padding: 20px 100px 0 100px;
     margin-bottom: 0;
-    background-color: rgb(4, 25, 46);
+    background-color: #153548;
 
     a,
     #footertext {
@@ -222,7 +222,7 @@ section {
     }
 
     #pageimg2 {
-        background-color: #f1cb98;
+        background-color: #ed7e17b8;
         margin: 0;
 
         #xjp61i {
@@ -357,15 +357,11 @@ section {
     .nav-link {
         font-size: 20px;
         font-weight: bold;
-        color: #0489aa;
+        color: #1a545d;
         nav-left: ;
         &:hover{
-            background-color: #FFFDD0;
-        }
-        &:focus{
-            /* border: 1px solid salmon; */
-            background-color: #0489aa;
-            color: #FFFDD0;
+            background-color: #1a545d;
+            color: whitesmoke;
         }
     }
 }
@@ -375,7 +371,7 @@ section {
     padding: 50px 80px 50px 0px;
     line-height: 50px;
     font-size: 20px;
-
+    
     div {
         display: flexbox;
         margin: auto;
@@ -419,12 +415,12 @@ section {
         height: 100%;
         width: 30%;
         margin: 50px 10px;
-        border: 1px solid saddlebrown;
-        /* background-color: #F5F5DC; */
-        background-color: #FFFDD0;
-        /* background-color: #D2B48C; */
-        background-color: #FFDAB9;
+        border: 1px solid #5B2F0B;
+        background-color: #FBDFAf;
         /* background-color: #D3D3D3; */
+        img{
+            border-radius: 5px;
+        }
     }
 
     .card-title {
@@ -443,7 +439,7 @@ section {
 }
 
 #buybox {
-    background-color: #F7E3AF;
+    background-color: #FBDFAf;
 
     div {
         /* padding-top: 10px; */
@@ -472,7 +468,7 @@ section {
         margin-top: 10px;
         padding-left: 20px;
         font-weight: bold;
-        /* background-color: #0489aa; */
+        /* background-color: #4E9A8D; */
     }
 
     h3 {
@@ -489,11 +485,13 @@ section {
         height: 280px;
         line-height: 80px;
         padding-top: 60px;
-        background-color: #0489aa;
+        background-color: #C59A63;
+        color: #5B2F0B;
     }
 
     h4 {
-        background-color: #e08c9a5b;
+        background-color: #8f5923d4;
+        color: #FBDFAf;
         height: 100px;
         font-size: 30px;
         font-weight: bold;
@@ -527,7 +525,7 @@ section {
         height: 280px;
         line-height: 80px;
         padding-top: 60px;
-        background-color: #0489aa;
+        background-color: #4E9A8D;
     }
 
     h4 {
@@ -571,13 +569,14 @@ section {
     .card {
         /* border: 1px solid seagreen; */
         /* border: 1px solid saddlebrown; */
-        background-color: #96c1ccb0;
+        color: #5B2F0B;
+        background-color: #f7c671;
         /* background-color: #FFDAB9; */
     }
-
+    
     .card-body {
         /* border: 1px solid seagreen; */
-        background-color: #172c311e;
+        background-color: #FBDFAf;
 
     }
 
@@ -588,8 +587,8 @@ section {
 
         &:hover {
             /* background-color: #286f8b; */
-            border: 2px solid rgb(13, 19, 46);
-            color: rgb(13, 19, 46);
+            border: 2px solid #5B2F0B;
+            color: #5B2F0B;
             font-weight: bolder;
         }
     }
@@ -598,7 +597,7 @@ section {
         font-size: 28px;
         /* border: 1px solid seagreen; */
         display: inline;
-        background-color: #0489aa;
+        background-color: #782B01;
         color: #FFDAB9;
         font-weight: bold;
     }
@@ -608,6 +607,7 @@ section {
         margin-top: 10px;
         font-size: 20px;
         line-height: 40px;
+        color: #5B2F0B;
     }
 
     #slogan {
