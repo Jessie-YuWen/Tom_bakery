@@ -5,7 +5,7 @@ footer {
     border: 3px solid rgb(239, 171, 93);
 } */
 body {
-    background-color: #ffffff;
+    background-color: #f8d8bf;
 }
 
 /* 以下為headerCSS */
@@ -352,19 +352,25 @@ section {
 }
 
 /* ---------以下圍湯暮小故事CSS----------- */
-.nav{
+/* .nav{
     margin-top: 20px;
     .nav-link {
-        font-size: 20px;
-        font-weight: bold;
-        color: #1a545d;
-        nav-left: ;
-        &:hover{
-            background-color: #1a545d;
-            color: whitesmoke;
-        }
+       
+    }
+} */
+
+.nav-item #navbtn1.nav-link{
+    background-color: transparent ;
+    border: transparent ;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a545d;
+    
+    &:hover{
+        color: #5B2F0B;
     }
 }
+
 
 
 #cbox {
@@ -592,7 +598,6 @@ section {
             font-weight: bolder;
         }
     }
-
     h6 {
         font-size: 28px;
         /* border: 1px solid seagreen; */
